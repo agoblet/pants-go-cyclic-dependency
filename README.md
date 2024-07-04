@@ -1,5 +1,7 @@
 # pants-go-cyclic-dependency
 
+This repo is a minimal example highlighting the following Pants issue: https://github.com/pantsbuild/pants/issues/21131
+
 The following command does not cause a `CycleException`:
 
 ```
