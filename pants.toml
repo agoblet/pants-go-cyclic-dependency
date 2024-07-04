@@ -1,0 +1,12 @@
+[GLOBAL]
+pants_version = "2.21.0"
+backend_packages = [
+  "pants.backend.docker",
+  "pants.backend.experimental.go",
+]
+
+[golang]
+minimum_expected_version = "1.22"
+
+[python]
+interpreter_constraints = ["CPython==3.9.*"]
